@@ -1,3 +1,10 @@
 # https://www.robotstxt.org/robotstxt.html
+
+# Text file created by the designer to prevent 
+# the search engines and bots to crawl up their sites. 
+# It contains the list of allowed and disallowed sites 
+# and whenever a bot wants to access the website, 
+# it checks the robots.
+
 User-agent: *
 Disallow:
