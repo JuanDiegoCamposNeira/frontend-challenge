@@ -1,3 +1,25 @@
 body {
   margin: 0; 
+
+  font-family: 'Roboto', 'sans-serif';
+
+  box-sizing: border-box;
+
+  /* Default colors */
+  --white: #FFFFFF;
+
+  /* Borders */
+  --border-input-black: rgba(0, 0, 0, 0.2);
+
+  /* Links */
+  --link-blue: #1DA1F2;
+  --link-blue-hover: ;
+
+  --link-black: #000000;
+  --link-black-hover: #000000A4;
+
+  /* Buttons */
+  --button-primary-blue: #1DA1F2;
+  --button-primary-blue-hover: #1A8BD1;
+
 }

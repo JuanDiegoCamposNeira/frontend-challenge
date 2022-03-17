@@ -1,0 +1,28 @@
+.twitter-copyrights, ul {
+    padding: 0;
+    font-size: 13px;
+    
+    text-align: center;
+}
+
+.twitter-copyrights {
+    margin-top: 5px;
+}
+
+ul {
+    list-style-type: none; /* Remove dots from list */
+
+    margin: 15px 0px 0px 0px; 
+}
+ul li {
+    display: inline;
+    
+    padding: 10px;
+}
+
+ul li a {
+    color: var(--link-black);
+}
+ul li a:hover {
+    color: var(--link-black-hover);
+}

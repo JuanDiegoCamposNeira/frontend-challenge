@@ -1,0 +1,104 @@
+/*
+    Page
+*/
+.login-content-wrapper {
+    display: flex; 
+    flex-flow: row nowrap;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/*
+    Twitter image
+*/
+.image-wrapper {
+    display: none;
+    width: 60%;
+    height: 690px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    overflow: hidden;
+}
+.image-wrapper .main-image {
+    width: 950px;
+}
+
+/*
+    Form
+*/
+.form-wrapper {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: left;
+    justify-content: center;
+
+    margin-left: 100px;
+}
+
+.form-title-wrapper .title-text {
+    font-weight: 900;
+    font-size: 40px;
+}
+.form-title-wrapper .title-logo {
+    width: 50px;
+}
+
+form {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+form input, form button {
+    width: 400px;
+    height: 60px;
+    
+    font-size: 15px;
+
+    margin: 10px 0px 10px 0px;
+
+}
+form input {
+    border-radius: 6px;
+    border: 1px solid var(--border-input-black);
+    
+    box-sizing: border-box;
+  
+    padding: 0px 15px;
+}
+form button {
+    border-radius: 70px;
+    border: none;
+
+    color: var(--white);
+    background-color: var(--button-primary-blue);
+
+    font-style: normal;
+    font-weight: 700;
+}
+form button:hover {
+    background-color: var(--button-primary-blue-hover);
+}
+
+.links-wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 20px 7px 0px 7px;
+}
+.links-wrapper .link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+
+    color: var(--link-blue);
+}
