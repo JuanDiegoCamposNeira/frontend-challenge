@@ -13,7 +13,6 @@ import twitterLogo from '../../Images/twitterLogo.png';
 
 export default function Login() {
 
-    const apiUrl = process.env.REACT_APP_API_BASE_URL; 
     const [username, setUsername] = useState(""); 
     const [password, setPassword] = useState(""); 
 
