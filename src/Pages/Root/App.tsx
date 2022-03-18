@@ -5,6 +5,7 @@ import './App.css';
 // Imported pages
 import Login from '../Login/Login'; 
 import NotFound from '../NotFound/NotFound';
+import Feed from '../Feed/Feed';
 
 function App() {
 
@@ -15,9 +16,8 @@ function App() {
       <Routes>
 
         <Route path='/login' element={ <Login /> } />
-
-
-
+        <Route path='/signup' element={ <Login /> } />
+        <Route path='/feed' element={ <Feed /> } />
         <Route path='*' element={ <NotFound /> } />      
 
       </Routes>

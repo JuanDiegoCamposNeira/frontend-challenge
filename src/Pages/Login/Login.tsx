@@ -7,8 +7,8 @@ import Footer from "../../Components/Footer/Footer";
 // Styles 
 import "./Login.css"; 
 // Imported images
-import twitterImage from '../../Images/twitterImage.png';
-import twitterLogo from '../../Images/twitterLogo.png';
+import twitterImage from '../../Assets/Images/twitterImage.png';
+import twitterLogo from '../../Assets/Images/twitterLogo.png';
 
 
 export default function Login() {
